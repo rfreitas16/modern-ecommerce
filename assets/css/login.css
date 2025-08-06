@@ -1,0 +1,44 @@
+.client{
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(170, 170, 255); */
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    height: 70%;
+    padding: 2em;
+    gap: 10px;
+    box-shadow: 5px 0px 10px 1px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    gap: 20px;
+}
+.login h2{
+    margin-bottom: 1em;
+}
+.login input{
+    height: 2em;
+    font-size: 1em;
+}
+
+.login button:hover{
+    background-color: rgba(52, 140, 255, 0.2);
+}
+.login a {
+    font-size: 0.7em;
+}
+.sub{
+    font-size: 0.8em;
+    display: flex;
+    gap: 5px;
+}
+.sub a{
+    font-size: 1em;
+    color: #0c30ff;
+}

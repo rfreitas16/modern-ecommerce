@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/cart.css">
+    <link rel="stylesheet" href="/assets/css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>        
+        <div class="menu-header">
+            <a href="singup.html">Cadastre-se</a>
+        </div>
+        
+        <div class="logo">
+            <h2>
+                <a href="index.html">Store</a>
+            </h2>
+        </div>
+
+        <div class="acess">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a>
+            <button class="hidden"><i class="fa-solid fa-bars"></i></button>
+        </div>
+</header>
+    <section>
+        <div class="cart-container">
+            <div class="product-list">
+                <div class="cart">
+                    <div class="product-cart">
+                            <img src="assets/img/casaco.jpg" alt="">
+                            <div class="product-desc">
+                                <h3>Moletom nike</h3>
+                                <h4>Ref: 300112</h4>
+                            </div>
+                        <div class="product-amount">
+                                <p>Quantidade:</p>
+                                <div class="quantity">
+                                    <button class="less">-</button>
+                                        <input type="number" min="1" max="5" step="1" placeholder="1">
+                                    <button class="more">+</button>
+                                </div>
+                        </div>
+
+                        <a href="">Remover</a>
+                    </div>
+
+                    <!-- //lopar aqui// -->
+                    <div class="product-cart">
+                            <img src="assets/img/casaco2.jpg" alt="">
+                            <div class="product-desc">
+                                <h3>Moletom nike</h3>
+                                <h4>Ref: 300124</h4>
+                            </div>
+                        <div class="product-amount">
+                                <p>Quantidade:</p>
+                                <div class="quantity">
+                                    <button class="less">-</button>
+                                        <input type="number" min="1" max="5" step="1" placeholder="1">
+                                    <button class="more">+</button>
+                                </div>
+                        </div>
+
+                        <a href="">Remover</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- payment -->
+            <div class="info">
+                <h2>Carrinho</h2>
+                <div class="info-values">
+                    <p>Por gentileza verifique novamente os itens dos carrinho 
+                        e o endereco de entrega antes de finalizar o seu pedido!
+                        
+                    </p>
+                </div>
+                <div class="adress">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <p>Rua Xavier Foutana, 192</p>
+                    <a href="">alterar endereco</a>
+                </div>
+
+
+
+
+                <div class="payment">
+                    <div class="payment-method">
+                        
+                        <label for="pix">
+                            <input type="radio" id="pix" name="option">
+                            <span>Pix</span>
+                        </label>
+
+                        <label for="debit">
+                            <input type="radio" id="debit" name="option">
+                            <span>Debito</span>
+                        </label>
+
+                        <label for="ticket">
+                            <input type="radio" id="ticket" name="option">
+                            <span>Boleto</span>
+                        </label>
+
+                        <label for="card">
+                            <input type="radio" id="card" name="option">
+                            <span>Cartao de credito</span>
+                        </label>                        
+                    </div>
+                </div>
+                <div class="total">
+                    <h3>Total do carrinho:</h3>
+                    <p>R$ 80,00</p>
+                </div>
+                <button><a href="">Pagar</a></button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
